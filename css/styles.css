@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #020303;
+    font-family: Arial, sans-serif;
+}
+.header {
+    padding: 30px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header .container, .main .container, .range .container {
+    font-size: 0;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu {
+    margin-left: 282px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+.menu ul li a:hover {
+    color: rgb(255, 175, 24);
+    border-bottom: 2px solid rgb(255, 175, 24);
+}
+.main {
+    padding: 133px 0 80px 0;
+}
+.main-info {
+    max-width: 564px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-bottom: 45px;
+}
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.main h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 74px;
+}
+.main-info-super {
+    color: #F6AE47;
+}
+.main-advantages {
+    margin-bottom: 92px;
+}
+.main-advantages .main-advantage:first-child {
+    margin-right: 99px;
+}
+.main-advantage {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-info {
+    padding-bottom: 45px;
+    padding-right: 22px;
+}
+.main-advantage-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+    margin-top: 0;
+}
+.main-advantage-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.main-button {
+    background-color: rgb(255, 175, 24);
+    border: none;
+    width: 224px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    padding: 21px;
+    cursor: pointer;
+}
+.main-button:hover {
+    box-shadow: 0 3px 15px 5px #ffa70091;;
+}
+.range {
+    padding: 120px 0;
+}
+.title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.title.range-title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+.range-cards {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.range-card {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    width: 272px;
+    height: 354px;
+    margin: 12px;
+    border: 5px solid rgb(255, 255, 255);
+}
+.range-card:hover {
+     box-shadow: 0 0 10px #ffffff ;
+ }
+.range-card-image {
+    margin: 5px auto 30px auto;
+    display: block;
+}
+.range-card-name {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.range-card-info {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    margin: 0 auto 15px auto;
+    max-width: 242px;
+    height: 50px;
+    text-align: center;
+}
+.range-card-button {
+    background-color: rgb(255, 175, 24);
+    width: 242px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+.range-card-button:hover {
+    box-shadow: 0 3px 15px 5px #ffa70091;;
+}
+.cook {
+    padding: 120px 0 67px 0;
+}
+.cook-block {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 386px;
+    margin-right: 41px;
+}
+.cook-image {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 768px;
+}
+.title.cook-block-title {
+    margin-bottom: 60px;
+}
+.cook-block-info {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+.cook-block-add {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+.cook-block-action-circle {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.cook-block-action-button {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 56px;
+    height: 56px;
+}
+.cook-block-action-button:hover {
+    box-shadow: 0 0 10px #ffffff ;
+}
+.cook-block-action-button:active {
+    background-color: #ffaf18;
+}
+.cook-block-action-button:visited {
+    background-color: #bebebe;
+}
+.cook-block-action-button.one img {
+    margin-top: 13px;
+}
+.cook-block-action-button.two img {
+    margin-top: 11px;
+}
+.cook-block-action-button.three img {
+    margin-top: 14px;
+}
+.footer {
+    padding: 30px 0;
+    background-color: black;
+}
+.footer-rights {
+    margin-left: 390px;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
